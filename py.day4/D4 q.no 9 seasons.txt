@@ -1,0 +1,13 @@
+month = input("enter the month : ")
+day = int(input("enter the day: "))
+
+if month in ('december', 'january', 'february'):
+	season = 'winter'
+elif month in ('march', 'april', 'may'):
+	season = 'summer'
+elif month in ('june', 'july', 'august'):
+	season = 'spring'
+else:
+	season = 'fall'
+
+print("Season is",season)

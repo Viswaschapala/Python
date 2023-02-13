@@ -1,0 +1,10 @@
+total= int(input("enter the number of users"))
+staff= int(input("enter the number of staff users"))
+non_teaching=staff/3
+student_users=total-(staff+non_teaching)
+if student_users<=0:
+
+    print("students_users: o (or) no users")
+else:
+    print("student_users:",student_users)
+    
